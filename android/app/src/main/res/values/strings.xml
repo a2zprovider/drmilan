@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DrMilap</string>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/splash</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:background">@drawable/splash</item>
+        <item name="colorPrimaryDark">@color/splash</item>
+    </style>
+</resources>
