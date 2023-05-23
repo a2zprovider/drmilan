@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from '../components/Home/index'
 import AboutScreen from "../components/About/index";
 import Icon from "react-native-vector-icons/FontAwesome5";
+import { SCREEN } from "../configs/constants.config";
 
 const Stack = createNativeStackNavigator();
 

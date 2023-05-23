@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, View, Text, ScrollView, TextInput } from "react-native";
-import { Screen } from "react-native-screens";
+import { SCREEN } from "../../configs/constants.config";
 import Icon from "react-native-vector-icons/FontAwesome";
 
 export default function HomeScreen({ navigation }) {
@@ -20,7 +20,7 @@ export default function HomeScreen({ navigation }) {
           justifyContent: 'center',
           flexWrap: 'wrap'
         }}>
-          <View style={{ width: (Screen.width - 50) / 2 - 10 / 2, }}>
+          <View style={{ width: (SCREEN.width - 50) / 2 - 10 / 2, }}>
             <View>
               <View style={{ borderWidth: 1, borderRadius: 50, backgroundColor: '#fff' }}>
                 <Icon name='user' />
