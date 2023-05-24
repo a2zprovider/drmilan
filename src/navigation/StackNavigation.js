@@ -14,12 +14,11 @@ export default function App() {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name="Home" component={HomeScreen} options={{
-                    title: <Icon
-                        name='user'
-                    /> + 'Hey, Ram',
+                    title: 'Hey, Ram',
                     headerStyle: {
                         backgroundColor: '#f4511e',
                     },
+                    headerShadowVisible: false,
                     headerTintColor: '#fff',
                     headerTitleStyle: {
                         fontWeight: 'bold',
